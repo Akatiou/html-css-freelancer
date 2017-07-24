@@ -12,8 +12,42 @@
 
 html {
    box-sizing: border-box;
+   margin: auto;
 }
 
 *, *:before, *:after {
    box-sizing: inherit;
+}
+
+body{
+   background-image: url'"./images/header.jpg");
+}
+header{
+   display: block;
+   /*background-image: url("../images/header.jpg");*/
+
+}
+
+.section{
+   display: block;
+   float: top right;
+   flex-grow: 2;
+   flex-wrap: wrap;   
+}
+
+
+.bouton a {
+border-radius:10px;
+width:150px;
+line-height:50px;
+text-align:center;
+vertical-align:middle;
+background: red;
+color:white;
+text-decoration:none;
+margin: 0px 200px;
+float: left;
+}
+.bouton a:hover {
+
 }
