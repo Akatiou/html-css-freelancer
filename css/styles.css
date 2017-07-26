@@ -20,34 +20,114 @@ html {
 }
 
 body{
-   background-image: url'"./images/header.jpg");
+   margin: auto;
+   opacity: .7;
 }
-header{
-   display: block;
-   /*background-image: url("../images/header.jpg");*/
+
+.le-haut{
+   background-image: url("../images/header.jpg");
+   background-size: cover;
+   width: 1380px;
+   height: 1100px;
+   /*padding: 500px;*/
 
 }
 
-.section{
-   display: block;
-   float: top right;
-   flex-grow: 2;
-   flex-wrap: wrap;   
+.freelancer{
+   background: #f0454c;
+   border-radius: 5px;
+   margin-left: 250px;
+   color: white;
+   padding: 20px;
+   text-decoration:none;
+
+   position: relative;
+   display: inline-block;
+   /*height:450px;
+   margin: 50px auto;
+   line-height:40px;
+   width: 500px;
+   height: 450px;*/
 }
 
+.section-1 li{
+   position: relative;
+   display: inline-block;
+   left: 900px;
+   margin-top: 0px;
+   padding: 10px;
+   /*float: right;
+   flex-wrap: wrap;*/
+}
 
 .bouton a {
-border-radius:10px;
-width:150px;
-line-height:50px;
-text-align:center;
-vertical-align:middle;
-background: red;
-color:white;
-text-decoration:none;
-margin: 0px 200px;
-float: left;
-}
-.bouton a:hover {
+   text-align: center;
+   line-height: 60px;
+   border-radius: 5px;
+   padding: 20px 30px;
+   vertical-align:middle;
+   background: #f0454c;
+   color:white;
+   text-decoration:none;
+   margin-top: 10px;
+   margin-right: 100px;
+   margin-left: 250px;
 
 }
+
+.fa-twitter, .fa-facebook {
+   color: #f0454c;
+}
+
+.section-2{
+   text-align: left;
+   padding: 50px 100px 20px 0px;
+   margin-top: 210px;
+}
+
+
+.en-gros{
+   font-weight: bold;
+   width: 80px;
+   font-size: 45px;
+   padding-top: 20px;
+   margin: 0px 350px 0px 250px;
+   border-top: 8px solid #f0454c;
+
+}
+
+.en-petit{
+  font-size: 150%;
+  font-weight: normal;
+
+  margin-top: 10px;
+   margin-right: 100px;
+   margin-left: 250px;
+}
+/* }
+.site-title{
+  margin: 45px 0 40px 0;
+  font-weight: bold;
+  font-size: 78px;
+}
+.site-subtitle{
+  margin: 25px 0 0 0;
+  font-size: 200%;
+  font-weight: normal;
+}
+body{
+  box-sizing : inherit;
+ font-family: 'Montserrat', sans-serif;
+  width: 980px;
+  max-width: 100%;
+  margin: auto;
+  } 
+
+  padding: 100px;
+  margin-top: 20px;
+  color: #FFFFFF;
+  font-size: 100%;
+  text-align: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  } */
