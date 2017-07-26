@@ -53,7 +53,7 @@ body{
 .section-1 li{
    position: relative;
    display: inline-block;
-   left: 900px;
+   left: 850px;
    margin-top: 0px;
    padding: 10px;
    /*float: right;
@@ -75,7 +75,7 @@ body{
 
 }
 
-.fa-twitter, .fa-facebook {
+header .fa-twitter, .fa-facebook {
    color: #f0454c;
 }
 
@@ -103,6 +103,40 @@ body{
   margin-top: 10px;
    margin-right: 100px;
    margin-left: 250px;
+}
+
+main, footer {
+   margin-left: 250px;
+   margin-right: 250px;
+}
+
+footer{
+   border-top: 1px solid lightgrey;
+   color: grey;
+}
+
+footer li{
+   position: relative;
+   display: inline-block;
+   margin-top: 20px;
+   padding-left: 0px;
+   padding-right: 20px;
+
+}
+
+footer .fa-twitter, .fa-facebook, .fa-google-plus{
+   color: grey;
+}
+
+footer .fa-instagram{
+   color: black;
+   font-weight: bold;
+}
+
+footer .signature{
+   position: relative;
+   display: inline-block;
+   float: right;
 }
 /* }
 .site-title{
