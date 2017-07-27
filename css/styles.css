@@ -33,6 +33,11 @@ body{
 
 }
 
+.en-tete{
+display: flex;
+justify-content: space-between;
+}
+
 .freelancer{
    background: #f0454c;
    border-radius: 5px;
@@ -41,9 +46,9 @@ body{
    padding: 20px;
    text-decoration:none;
 
-   position: relative;
+   /*position: relative;
    display: inline-block;
-   /*height:450px;
+   height:450px;
    margin: 50px auto;
    line-height:40px;
    width: 500px;
@@ -105,39 +110,71 @@ header .fa-twitter, .fa-facebook {
    margin-left: 250px;
 }
 
+main .partie-1{
+   position: relative;
+   display: flex;
+   margin-top: 50px;
+   opacity: .9;
+}
+
 main, footer {
+   /*margin-left: 250px;
+   margin-right: 250px;*/
+   width: 940px;
    margin-left: 250px;
    margin-right: 250px;
+}
+
+.partie-1 h2:before{
+   content:"";
+   width: 58px;
+   height: 6px;
+   background-color: #f0454c;
+   display: block;
+   margin-bottom: 20px;
+   
 }
 
 footer{
    border-top: 1px solid lightgrey;
    color: grey;
+   display: flex;
+   justify-content: space-between;
 }
 
 footer li{
    position: relative;
    display: inline-block;
    margin-top: 20px;
-   padding-left: 0px;
    padding-right: 20px;
 
 }
 
-footer .fa-twitter, .fa-facebook, .fa-google-plus{
+footer .fa-twitter, .fa-instagram, .fa-facebook, .fa-google-plus{
    color: grey;
 }
 
-footer .fa-instagram{
-   color: black;
-   font-weight: bold;
+footer i:hover{
+color: black;
+
 }
 
 footer .signature{
-   position: relative;
-   display: inline-block;
-   float: right;
+   margin-top: 20px;
 }
+
+.more{
+   color: #f0454c;
+   font-weight: bold;
+   text-decoration: none;
+}
+
+.more:hover{
+   color: black;
+}
+
+
+
 /* }
 .site-title{
   margin: 45px 0 40px 0;
