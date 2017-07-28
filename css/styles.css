@@ -192,12 +192,12 @@ h1:before{
    padding-right: 100px;
 }
 
-span .photos-de-la-team{
- /*  position: relative;*/
+.photos{
+   position: relative;
    display: flex;
+
    margin-top: 50px;
   /* padding-bottom: 50px;*/
-   background-color: red;
    /*align-items: center;*/
 
 }
