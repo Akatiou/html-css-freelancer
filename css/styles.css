@@ -21,6 +21,7 @@ html {
 
 a{
    text-decoration: none;
+   color: #465065;
 }
 
 h1, h2, h3 {
@@ -37,7 +38,6 @@ h1, h2, h3 {
    background-image: url("../images/header.jpg");
    background-size: cover;
    height: 1100px;
-   /*padding: 500px;*/
 
 }
 
@@ -48,9 +48,12 @@ justify-content: space-between;
 
 .freelancer{
    background: #f0454c;
-   border-radius: 5px;
+   border-bottom-right-radius: 5px;
+   border-bottom-left-radius: 5px;
    color: white;
-   padding: 20px;
+   padding: 30px;
+   text-transform: uppercase;
+   font-weight: bold;
 }
 
 .section-1 li{
@@ -71,6 +74,8 @@ footer ul{
    background: #f0454c;
    color: white;
    margin-top: 10px;
+   text-transform: uppercase;
+   font-weight: bold;
 }
 
 header .fa-facebook, header .fa-twitter {
@@ -141,6 +146,7 @@ footer .signature{
 
 .more{
    color: #f0454c;
+   text-transform: uppercase;
    font-weight: bold;
    text-decoration: none;
 }
@@ -206,12 +212,12 @@ span img{
    border-radius: 50%;
    width: 140px;
    height: 140px;
-
+   padding-right: 10px;
 }
 body{
    color: #9AA0AB;
 }
-.partie-1 p:first-line, .portfolio h2+p, .section-pied h3+p{
+.partie-1 p:first-line, .section-2 h1+p, .portfolio h2+p, .section-pied h3+p{
    color: #465065;
 }
 
